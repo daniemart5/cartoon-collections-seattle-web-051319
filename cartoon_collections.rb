@@ -8,7 +8,6 @@ end
 def summon_captain_planet(calls)
     new_calls = calls
     new_calls.collect do |call| 
-      binding.pry
       call.capitalize
     return new_calls
   end
