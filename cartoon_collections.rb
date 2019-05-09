@@ -6,11 +6,10 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
-  binding.pry
-    new_calls = calls.unshift("!")
+    new_calls = calls
     new_calls.collect do |call| 
       call.capitalize!
-    puts new_calls.join(" ")
+    puts new_calls.join("!")
   end
 end
 
